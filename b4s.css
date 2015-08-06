@@ -14,9 +14,7 @@ a{
  
  color: black;
  font-size: 45;
- margin-right: 450px;
- margin-left: 400px;
- 
+ text-decoration: none;
 
 
 
@@ -29,6 +27,10 @@ ul{
 color: black; 
 background-color: white;
 text-align: left;
+margin-right: 450px;	
+margin-left: 450px;
+
+
 
 
 }
