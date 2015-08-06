@@ -19,24 +19,22 @@ a{
 
 
 
-}
-
-
-ul{
-
-color: black; 
-background-color: white;
-text-align: left;
-margin-right: 450px;	
-margin-left: 450px;
-
-
-
 
 }
 p {
 	text-align: center;
 	font-size: 16;
 	font-family: Tahoma
+
+}
+
+div {
+	width: auto;
+	height: auto;
+	margin: 50px;
+	margin-right: 450px;
+	margin-left: 450px;
+	background-color: white
+
 
 }
