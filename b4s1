@@ -30,26 +30,33 @@
 	<body>
 
 	
-	<div>
-
-
-		    <a href="b4s1.1">MTB</a><br>
+	         <div>
+				<a href="b4s1.1">MTB</a><br>
+	         </div>	     
 		
-			<a href="">Road</a><br>
-			
-			<a href="">BMX</a><br>
-			
-			<a href="">City</a><br>
-			
-			<a href="">Kids bikes</a><br>
-			
-			<a href="">Clothing</a><br>
-			
-			<a href="">Accessories</a><br>
-        
-         
+			 <div>	 
+			 <a href="">Road</a><br>
+			 </div>	
+			 
+			 <div>
+			 <a href="">BMX</a><br>
+			 </div>				
+			 
+			 <div>
+			 <a href="">City</a><br>
+			 </div>	
+			 
+			 <div>
+			 <a href="">Kids bikes</a><br>
+			 </div>	
 
-    </div>
+			 <div>
+			 <a href="">Clothing</a><br>
+			 </div>	
+			 
+			 <div>
+			 <a href="">Accessories</a><br>
+             </div>
 
 	
 	</body>

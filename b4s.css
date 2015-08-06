@@ -12,29 +12,30 @@ body {
 
 a{
  
- color: black;
+ color: #333333;
  font-size: 45;
  text-decoration: none;
-
-
-
-
-
 }
+
+
 p {
 	text-align: center;
-	font-size: 16;
-	font-family: Tahoma
-
+	font-size: 15;
+	font-family: Tahoma;
+	padding-bottom: 25px;
+	
 }
 
 div {
+	
 	width: auto;
 	height: auto;
-	margin: 50px;
+	margin: 10px;
 	margin-right: 450px;
 	margin-left: 450px;
-	background-color: white
-
-
+	padding-left: 30px;		
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: white;
 }
+
