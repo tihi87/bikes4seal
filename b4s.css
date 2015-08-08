@@ -8,10 +8,13 @@ body {
 	background:#66CBFF;
 	font-family: Tahoma;
 
+
+
 }
 
 a{
  
+
  color: #333333;
  font-size: 45;
  text-decoration: none;
@@ -29,7 +32,7 @@ p {
 }
 
 div {
-	
+
 	width: auto;
 	height: auto;
 	margin: 10px;
@@ -40,6 +43,8 @@ div {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: white;
-	
+
 }
 
+div:hover
+     {font-weight: bold;}
