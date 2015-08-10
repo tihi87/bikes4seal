@@ -1,49 +1,54 @@
-img{
-max-height: 80px;
-max-width: 80px;
-width: 80px;
-height: 80px;
-padding: 20px
+img {
+    max-height: 80px;
+    max-width: 80px;
+    width: 80px;
+    height: 80px;
+    padding: 20px
 }
-
-#clsBanner{
-display: block;margin-left: auto;margin-right: auto;
+#clsBanner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-header{
-background: #66CCFF; width:auto;height:180px
+header {
+    background: #66CCFF;
+    width: auto;
+    height: 180px
 }
-
-bod{
-background: #ECF0F1;font-family: 'Roboto', sans-serif;
+bod {
+    background: #ECF0F1;
+    font-family: 'Roboto', sans-serif;
 }
-
-a{
-color: #34495E; font-size: 36px; text-decoration: none;padding: 20px;
+a {
+    color: #34495E;
+    font-size: 36px;
+    text-decoration: none;
+    padding: 20px;
 }
-
-p{
-font-size: 18px;color: #34495E; padding: 20px
+p {
+    font-size: 18px;
+    color: #34495E;
+    padding: 20px
 }
-
-div{
- width: 640px; background-color: white; margin-left: auto; margin-right: auto;
+div {
+    width: 640px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.container-1{
-  width: 640px;
+.container-1 {
+    width: 640px;
 }
-
-.container-1 input#search{
-  width: 640px;
-  height: 40px;
-  background: white;
-  border: 10px;
-  font-size: 10pt;
-  float: left;
-  color: #63717f;
-  padding-left: 295px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+.container-1 input#search {
+    width: 640px;
+    height: 40px;
+    background: white;
+    border: 10px;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 295px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
