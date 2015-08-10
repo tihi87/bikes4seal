@@ -1,49 +1,22 @@
- .clsBanner  {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+ #clsBanner  {
+        display: block;margin-left: auto;margin-right: auto;
 }
 
 body {
-	background:#66CBFF;
-	font-family: Tahoma;
-
-
-
+background:#66CBFF;font-family: Tahoma;
 }
 
 a{
- 
-
- color: #333333;
- font-size: 45;
- text-decoration: none;
-
- 
+color: #333333;font-size: 45;text-decoration: none;
 }
 
-
 p {
-	text-align: center;
-	font-size: 15;
-	font-family: Tahoma;
-	padding-bottom: 25px;
-
+text-align: center;font-size: 15;font-family: Tahoma;padding-bottom: 25px;
 }
 
 div {
-
-	width: auto;
-	height: auto;
-	margin: 10px;
-	margin-right: 450px;
-	margin-left: 450px;
-	padding-left: 30px;	
-	padding-right: auto;	
-	padding-top: 15px;
-	padding-bottom: 15px;
-	background-color: white;
-
+width: auto;height: auto;margin: 10px;margin-right: 450px;margin-left: 450px;padding-left: 30px;	padding-right: auto;	padding-top: 15px;
+padding-bottom: 15px;background-color: white;
 }
 
 div:hover
