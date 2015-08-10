@@ -6,24 +6,24 @@ height: 80px;
 padding: 20px
 }
 
-#clsBanner  {
+#clsBanner{
 display: block;margin-left: auto;margin-right: auto;
 }
 
-header {
+header{
 background: #66CCFF; width:auto;height:180px
 }
 
-body {
-background: #ECF0F1;font-family: 'Roboto', sans-serif; font-weight: 300
+bod{
+background: #ECF0F1;font-family: 'Roboto', sans-serif;
 }
 
 a{
-color: #34495E; font-size: 36px; text-decoration: none;
+color: #34495E; font-size: 36px; text-decoration: none;padding: 20px;
 }
 
-p {
-font-size: 18px;color: #34495E
+p{
+font-size: 18px;color: #34495E; padding: 20px
 }
 
 div{
