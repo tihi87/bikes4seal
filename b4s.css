@@ -5,50 +5,71 @@ img {
     height: 80px;
     padding: 20px
 }
+
+body{
+	background-size: 1700px
+}
+}
+
+@font-face{
+	font-family:Roboto-Light;
+	src:url("Roboto-Light.ttf");
+}
+#font-roboto
+{
+	font-family:Roboto-Light;
+}
+
 #clsBanner {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-header {
-    background: #66CCFF;
-    width: auto;
-    height: 180px
-}
-bod {
-    background: #ECF0F1;
-    font-family: 'Roboto', sans-serif;
-}
-a {
-    color: #34495E;
-    font-size: 36px;
-    text-decoration: none;
-    padding: 20px;
-}
+
 p {
+    width: 600px;
     font-size: 18px;
     color: #34495E;
-    padding: 20px
+    padding: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #67cbff;
+    border-radius: 5px;
 }
 div {
     width: 640px;
-    background-color: white;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
+
 }
 .container-1 {
-    width: 640px;
+    width: 640px; margin-right: auto; margin-left: auto;
+    color:white;
 }
 .container-1 input#search {
     width: 640px;
     height: 40px;
-    background: white;
+    background: red;
     border: 10px;
     font-size: 10pt;
-    float: left;
-    color: #63717f;
-    padding-left: 295px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+}
+#wrapper{
+	background-color: green;
+	width:640px;
+	background: rgba(3, 24, 60, 0.9);
+	font-size: 36px;
+	list-style-type: none;
+}
+
+
+a{
+	color: white;
+	font-weight: 100;
+	text-decoration: none;
+	margin-left: 20px;
+
 }
