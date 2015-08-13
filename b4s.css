@@ -1,3 +1,15 @@
+body{
+background-size: 100% auto;
+}
+
+@font-face{
+	font-family:Roboto-Light;
+	src:url("Roboto-Light.ttf");
+}
+#font-roboto{
+	font-family:Roboto-Light;
+}
+
 img {
     max-height: 80px;
     max-width: 80px;
@@ -6,70 +18,69 @@ img {
     padding: 20px
 }
 
-body{
-	background-size: 1700px
-}
-}
-
-@font-face{
-	font-family:Roboto-Light;
-	src:url("Roboto-Light.ttf");
-}
-#font-roboto
-{
-	font-family:Roboto-Light;
-}
-
 #clsBanner {
     display: block;
-    margin-left: auto;
+    margin-left: 315px;
     margin-right: auto;
+    border-radius: 5px;
+}
+
+form{
+	margin-left: auto;
+	margin-right: auto;
+	width: 636px;
+	height: 10px;
+	border-radius:5px;
+	padding:20px;
+	background-color: transparent;
+	border: solid white 2px;
+}
+
+input{
+width: 640px;
+height:auto;
+margin: 0px;
+background-color: transparent;
+font-size: 20px;
+border:none;
 }
 
 p {
-    width: 600px;
+    width: 640px;
     font-size: 18px;
     color: #34495E;
-    padding: 20px;
     margin-left:auto;
     margin-right:auto;
     background-color: #67cbff;
     border-radius: 5px;
+    padding: 20px;
+
 }
 div {
     width: 640px;
-    margin-left: auto;
-    margin-right: auto;
+	margin: auto;
     border-radius: 5px;
+    padding-left: 20px;
+    padding-right:20px;
 
 }
-.container-1 {
-    width: 640px; margin-right: auto; margin-left: auto;
-    color:white;
-}
-.container-1 input#search {
-    width: 640px;
-    height: 40px;
-    background: red;
-    border: 10px;
-    font-size: 10pt;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-}
+
 #wrapper{
 	background-color: green;
 	width:640px;
 	background: rgba(3, 24, 60, 0.9);
-	font-size: 36px;
+	font-size: 20pt;
 	list-style-type: none;
 }
-
 
 a{
 	color: white;
 	font-weight: 100;
 	text-decoration: none;
-	margin-left: 20px;
-
 }
+
+li { 
+border-bottom: 1px solid white;
+padding: 10px
+ }
+
