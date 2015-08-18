@@ -15,32 +15,18 @@ html {
 
 #clsBanner {
     display: block;
-    margin-left: 326.5px;
     margin-right: auto;
     max-height: 80px;
     max-width: 80px;
     width: 80px;
     height: 80px;
     padding-bottom: 20px;
-}
-
-#search {
-    margin-left: auto;
-    margin-right: auto;
-	background: transparent;
-    width: 678px;
-    color: white
-    }
-input{
-	width: 672px;
-	height: 40px;
-	border-radius: 7px;
-	background-color:transparent;
-	border: 2px solid #E0E0E0;
+    float:left;
 }
 
 p {
-    width: 650px;
+	width: 90%;
+	max-width: 640px;
     font-size: 18px;
     color: #34495E;
     margin-left:auto;
@@ -49,11 +35,12 @@ p {
     margin-top: 20px;
     background-color: #67cbff;
     border-radius: 5px;
-    padding: 15px;
+    padding: 20px;
 }
 
 #wrapper{
-	width:640px;
+	width: 90%;
+	max-width: 640px;
 	background: rgba(3, 24, 60, 0.8);
 	list-style-type: none;
 	margin-left: auto;
@@ -75,7 +62,8 @@ padding: 0px;
 }
 
 li { 
-	width: 640px;
+	width: 100%;
+	max-width: 640px;
 	border-bottom: 1px solid #6B8FB2;
 	padding-bottom: 15px;
 	padding-top: 15px;
@@ -86,6 +74,18 @@ a{
 	text-decoration: none;
 	font-size: 23px;
 }
-
-
-
+header{
+	max-width: 680px;
+   	margin: 5px auto;
+    margin-left: auto;
+    margin-right: auto
+}
+.container-1 input#search{
+	color: white;
+	max-width: 680px;
+	width: 100%;
+	background-color: transparent;
+	border: 1px solid white;
+	height: 40px;
+	border-radius: 5px;
+}
