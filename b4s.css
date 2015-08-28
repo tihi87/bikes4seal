@@ -64,15 +64,23 @@ padding: 0px;
 li { 
 	width: 100%;
 	max-width: 640px;
-	border-bottom: 1px solid #6B8FB2;
-	padding-bottom: 15px;
-	padding-top: 15px;
  }
 
-a{
+a {
+	display: block;
+	padding: 15px 20px;
+	border-bottom: 1px solid #6B8FB2;
+	max-width: 640px;
+	width: 100%;
 	color: white;
 	text-decoration: none;
 	font-size: 23px;
+	padding-left: 0px;
+	padding-right: 0px
+}
+
+a:hover {
+	background-color: rgba(140, 140, 140, 0.3);
 }
 header{
 	max-width: 680px;
