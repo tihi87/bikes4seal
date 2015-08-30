@@ -81,7 +81,6 @@ a {
 
 a:hover {
 	background-color: rgba(140, 140, 140, 0.3);
-	border-radius: 3px
 }
 header{
 	max-width: 680px;
@@ -100,4 +99,8 @@ header{
 	border: 1px solid white;
 	height: 40px;
 	border-radius: 5px;
+}
+a::after{
+	content: url(arrow.png);
+	float: right;
 }
