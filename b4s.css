@@ -5,6 +5,11 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+body{
+	font-size: relative 100%
+}
+
 @font-face{
 	font-family:Roboto-Light;
 	src:url("Roboto-Light.ttf");
