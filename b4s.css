@@ -4,141 +4,121 @@ img {
     top: 50px;
     z-index: -1
 }
-form{
-	margin-left: 300px;
-	margin-top:195px;
+form {
+    margin-left: 310px;
+    margin-top: 195px;
 }
-input#button1{
-	width: 40px;
-	height: 40px;
-	color: white;
-	background-color: black;
-	border: 0px;
-	border-radius: 50px
+input#button1 {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: 0px;
+    border-radius: 50px
 }
-input#button2{
-	width: 380px;
-	height: 20px;
-	border: solid black;
-	border-radius: 5px;
+input#button2 {
+    width: 320px;
+    height: 20px;
+    border: solid black;
+    border-radius: 5px;
 }
-
 }
-
 body {
-    background:white;
+    background: white;
 }
- 
-
 .clearfix:after {
-    display:block;
-    clear:both;
+    display: block;
+    clear: both;
 }
- 
 /*----- Menu Outline -----*/
+
 .menu-wrap {
-    margin-top: 25px;
+    margin-top: 55px;
+    margin-bottom: 25px;
     padding: 15px;
     max-width: 650px;
-    width:100%;
-    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    width: 100%;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 1.2);
 }
- 
-.menu {
-    width:1000px;
-    margin:0px auto;
-}
- 
 .menu li {
-    margin:0px;
-    list-style:none;
+    margin: 0px;
+    list-style: none;
 }
- 
 .menu a {
-    transition:all linear 0.15s;
-    color:#919191;
+    transition: all linear 0.15s;
 }
- 
-.menu li:hover > a, .menu .current-item > a {
-    text-decoration:none;
-    color:black;
+.menu li:hover > a,
+.menu .current-item > a {
+    text-decoration: none;
+    color: black;
 }
- 
 .menu .arrow {
-    font-size:10px;
-    line-height:0%;
+    font-size: 10px;
+    line-height: 0%;
 }
- 
 /*----- Top Level -----*/
-.menu > ul > li {
 
-    position:relative;
-    font-size:19px;
+.menu > ul > li {
+    position: relative;
+    font-size: 19px;
 }
- 
 .menu > ul > li > a {
     padding: 7px 124px 7px 10px;
     text-decoration: none;
-    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
     color: black;
     font-weight: 800;
     font-size: 25px
 }
- 
-.menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    max-width: 250px;
-    width: 100%;
-    background:white;
+.menu > ul > li:hover > a,
+.menu > ul > .current-item > a {
+    background: white;
     border: solid 10px black;
     border-radius: 5px
 }
- 
 /*----- Bottom Level -----*/
+
 .menu li:hover .sub-menu {
-    z-index:1;
-    opacity:1;
+    z-index: 1;
+    opacity: 1;
 }
- 
 .sub-menu {
     max-width: 350px;
-	width: 100%;
-	margin-left: 193px;
-    width:100%;
-    position:absolute;
-    top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    background:white;
+    width: 100%;
+    margin-left: 193px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity linear 0.15s;
+    background: white;
     border: 4px solid black;
     border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
 }
- 
 .sub-menu li {
-    display:block;
+    display: block;
     max-width: 330px;
     width: 100%;
 }
- 
 .sub-menu li a {
-
-    display:block;
+    display: block;
     color: black;
     text-decoration: none;
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
 }
- 
-.sub-menu li a:hover, .sub-menu .current-item a {
-    background:black;
-    color:white;
-    padding:5px
+.sub-menu li a:hover,
+.sub-menu .current-item a {
+    background: black;
+    color: white;
+    padding: 5px
 }
-li{
-	padding: 10px;
-
+li {
+    padding: 10px;
 }
-span{
-	vertical-align: middle;
+span {
+    vertical-align: middle;
 }
