@@ -1,111 +1,144 @@
-html { 
-  background: url(bbb.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+img {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: -1
 }
-
-body{
-	font-size: relative 100%
+form{
+	margin-left: 300px;
+	margin-top:195px;
 }
-
-@font-face{
-	font-family:Roboto-Light;
-	src:url("Roboto-Light.ttf");
-}
-#font-roboto{
-	font-family:Roboto-Light;
-}
-
-#clsBanner {
-    display: block;
-    margin-right: auto;
-    max-height: 80px;
-    max-width: 80px;
-    width: 80px;
-    height: 80px;
-    padding-bottom: 20px;
-    float:left;
-}
-
-p {
-	width: 90%;
-	max-width: 640px;
-    font-size: 18px;
-    color: #34495E;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    background-color: #67cbff;
-    border-radius: 5px;
-    padding: 20px;
-}
-
-#wrapper{
-	width: 90%;
-	max-width: 640px;
-	background: rgba(3, 24, 60, 0.8);
-	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top:20px;
-	margin-bottom: 20px;
-	border-radius: 5px;
-	padding-top: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px
-}
-
-ul#nobullets{
-list-style-type: none;
-margin:0px;
-border: 0px;
-padding: 0px;
-}
-
-li { 
-	width: 100%;
-	max-width: 640px;
- }
-
-a {
-	display: block;
-	padding: 15px 20px;
-	border-bottom: 1px solid #6B8FB2;
-	max-width: 640px;
-	width: 100%;
-	color: white;
-	text-decoration: none;
-	font-size: 23px;
-	padding-left: 0px;
-	padding-right: 0px
-}
-
-a:hover {
-	background-color: rgba(140, 140, 140, 0.3);
-}
-header{
-	max-width: 680px;
-   	margin: 5px auto;
-    margin-left: auto;
-    margin-right: auto
-}
-
-#search{
-	color: white;
-	padding-left: 20px;
-	font-size: 20px;
-	max-width: 658px;
-	width: 100%;
-	background-color: transparent;
-	border: 1px solid white;
+input#button1{
+	width: 40px;
 	height: 40px;
+	color: white;
+	background-color: black;
+	border: 0px;
+	border-radius: 50px
+}
+input#button2{
+	width: 380px;
+	height: 20px;
+	border: solid black;
 	border-radius: 5px;
 }
-a::after{
-	content: url(arrow.png);
-	float: right;
+
+}
+
+body {
+    background:white;
+}
+ 
+
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+/*----- Menu Outline -----*/
+.menu-wrap {
+    margin-top: 25px;
+    padding: 15px;
+    max-width: 650px;
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:black;
+}
+ 
+.menu .arrow {
+    font-size:10px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding: 7px 124px 7px 10px;
+    text-decoration: none;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+    color: black;
+    font-weight: 800;
+    font-size: 25px
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    max-width: 250px;
+    width: 100%;
+    background:white;
+    border: solid 10px black;
+    border-radius: 5px
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    max-width: 350px;
+	width: 100%;
+	margin-left: 193px;
+    width:100%;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    background:white;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+ 
+.sub-menu li {
+    display:block;
+    max-width: 350px;
+    width: 100%;
+}
+ 
+.sub-menu li a {
+
+    display:block;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:600;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:black;
+    color:white;
+    padding:5px
+}
+li{
+	padding: 10px;
+
+}
+span{
+	vertical-align: middle;
 }
